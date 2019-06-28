@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.modal-outer {
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-inner {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  background: green;
+  padding: 2%;
+}
+
+.close{
+  margin-left: 85%;
+  margin-right: 10px;
+  background: red;
+}
+p {
+  position: relative;
+  text-align: center;
+}
+
+.form-input{
+  display:block;
+}
+
+
